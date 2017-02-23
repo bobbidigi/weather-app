@@ -41,13 +41,17 @@ ul.list-unstyled{
 }
     
 ul.list-unstyled li{
-  margin-left:5%;
+font-family: fantasy;
+letter-spacing: 5px;    
+border-radius: 5px;     
+ display: inline-flex;
+  margin-left:10%;
   color: #6495ED;
-  float:left;
+/*  float:left;*/
   background-color: #333333;
 /*   text-align: right; */
   padding: 5px;
-  font-size: .6em;
+  font-size: 1.6em;
   font-weight: bold;  
 }
 
@@ -55,15 +59,21 @@ ul.list-unstyled li{
   color: red;
   cursor: pointer;
 }
-
+/**/
 p#temp{
+text-align: center;    
   padding: 20px;
   font-size: 2em;
   color: #fff;
+font-family: roboto;
+font-weight: 800;    
 /*   display: inline; */
 }
 #city{
+padding: 15px;    
+ text-align: center;   
   font-size: 4em;
   font-family:Roboto;
-  color:#fff
+  color:#fff;
+  margin: auto;      
 }
