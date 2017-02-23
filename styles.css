@@ -1,0 +1,69 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,300,100');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css');
+}
+
+p {
+  color: #FFFFFF;
+  font-size:5em;
+}
+
+#searchBar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  backgound-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sheet {
+  background: black;
+  opacity: 0.65;
+  padding: 0 3% 3% 1% ;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+.weather{
+  float:right;
+}
+
+ul.list-unstyled{
+  display:inline;
+}
+    
+ul.list-unstyled li{
+  margin-left:5%;
+  color: #6495ED;
+  float:left;
+  background-color: #333333;
+/*   text-align: right; */
+  padding: 5px;
+  font-size: .6em;
+  font-weight: bold;  
+}
+
+#temp:hover{
+  color: red;
+  cursor: pointer;
+}
+
+p#temp{
+  padding: 20px;
+  font-size: 2em;
+  color: #fff;
+/*   display: inline; */
+}
+#city{
+  font-size: 4em;
+  font-family:Roboto;
+  color:#fff
+}
