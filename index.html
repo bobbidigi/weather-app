@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>   
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" >
@@ -10,8 +11,9 @@
         <meta name="author" content="Robert Allen"      />
 
         
-        <title>Title of the document</title>
+        <title>Weather app</title>
         <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="styles.css"  rel="stylesheet" type="text/css">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -22,27 +24,25 @@
 <body>
     
 <div id="wrapper" class="container-fluid bg-div">
-    <div class= "row">
-        <div class="col-sm-6 col-sm-offset-2 sheet">
-            <h2 id="city" class="text-center"></h2>
-             
-            <hr>  
-<!--s    -->
-        <div class="row">
-            <div class="text-center">
-              <ul class="list-unstyled"> 
-                <li class="text-center" id="humidity"></li>
-                <li class="text-center" id="windSpeed"></li>
-                <li class="text-center" id="clouds"></li>
-              </ul>
-            </div>    
-         </div>
-         <div class="row">
-            <div class="text-center"> 
-                <p id="temp" class="text-center lead" ></p>
-            </div>
-         </div>     
-        </div>    
+  <div class= "row">
+   <div class="col-sm-8 col-sm-offset-2 sheet text-center">
+<!--    <div class="sheet">-->
+        <h2 id="city" class="text-center"></h2>
+        <hr>  
+
+    <div class="row">
+    <div class="col-md-5"> 
+        <p id="temp" class="text-center lead" ></p>
+    </div>
+     <div class="col-md-7">
+        <ul class="list-unstyled"> 
+            <li class="text-center" id="humidity"></li>
+            <li class="text-center" id="windSpeed"></li>
+            <li class="text-center" id="clouds"></li>
+        </ul>
+     </div>    
+    </div>
+   </div>    
   </div>
 </div>    
 </body>
